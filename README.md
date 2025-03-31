@@ -4,6 +4,15 @@ This project aims to recognize hand gestures representing numbers (0 to 9) in re
 
 ---
 
+## 📦 Download Dataset
+
+You can download the full training dataset (~175,000 images) from the link below:
+
+👉 [Download merged_rotated.zip from Google Drive](https://drive.google.com/your-link-here)
+
+> Unzip the folder and place it in the project root before training.
+
+
 ## 📁 Project Structure
 
 ```bash
