@@ -19,7 +19,7 @@ You can download the full training dataset (~175,000 images) from the link below
 ├── merged_dataset/           # Original + manually added images
 ├── merged_rotated/           # Rotated/augmented dataset (final training set)
 ├── train_model.py            # Model training script
-├── live_predict_smoothed.py  # Real-time prediction (with smoothing)
+├── realtime_prediction       # Real-time prediction (with smoothing)
 ├── confusion_matrix_only.py  # Evaluate model performance
 ├── best_model.keras          # Saved trained model
 ├── README.md                 # Project documentation (this file)
