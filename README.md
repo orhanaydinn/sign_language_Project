@@ -120,21 +120,3 @@ Developed by **Orhan AYDIN** **Sultan KELES** and **Rakesh NEGI** as part of MSc
 Inspired by real-world gesture recognition needs and optimized for robustness in live settings.
 
 ---
-
-## 🌟 Future Improvements
-- MediaPipe integration for dynamic ROI detection
-- Extend to recognize letters and common words
-- Mobile deployment via TensorFlow Lite
-
----
-
-## 🖼️ Example Output
-Add your confusion matrix image in the `docs/` folder and link it here:
-
-```md
-![confusion_matrix](docs/confusion_matrix_example.png)
-```
-
----
-
-Feel free to fork, contribute, or open issues! 🚀
