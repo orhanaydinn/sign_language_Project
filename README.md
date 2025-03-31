@@ -8,7 +8,7 @@ This project aims to recognize hand gestures representing numbers (0 to 9) in re
 
 You can download the full training dataset (~175,000 images) from the link below:
 
-👉 [Download merged_rotated.zip from Google Drive](https://drive.google.com/your-link-here)
+👉 [Download merged_rotated.zip from Google Drive](https://drive.google.com/drive/folders/1zn-vFtKoGX8axPeU9McAr1j4z0t8KWJ5?usp=drive_link)
 
 > Unzip the folder and place it in the project root before training.
 
