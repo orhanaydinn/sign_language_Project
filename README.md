@@ -102,16 +102,6 @@ This will display a color-coded matrix showing class-wise performance on the val
 - Matplotlib
 - scikit-learn
 
-Install all dependencies with:
-```bash
-pip install -r requirements.txt
-```
-
-> ⚠️ Note: If `requirements.txt` is not available, install manually:
-```bash
-pip install opencv-python tensorflow numpy matplotlib scikit-learn
-```
-
 ---
 
 ## 📌 Credits
