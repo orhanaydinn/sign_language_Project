@@ -19,7 +19,7 @@ You can download the full training dataset (~175,000 images) from the link below
 ├── merged_dataset/           # Original + manually added images
 ├── merged_rotated/           # Rotated/augmented dataset (final training set)
 ├── train_model.py            # Model training script
-├── realtime_prediction       # Real-time prediction (with smoothing)
+├── realtime_prediction.py    # Real-time prediction (with smoothing)
 ├── confusion_matrix_only.py  # Evaluate model performance
 ├── best_model.keras          # Saved trained model
 ├── README.md                 # Project documentation (this file)
@@ -71,11 +71,11 @@ This will:
 
 ---
 
-## 🎥 Real-Time Prediction
+## 🎥 realtime_prediction.py 
 
 Use your webcam to detect hand signs:
 ```bash
-python live_predict_smoothed.py
+python realtime_prediction.py 
 ```
 Features:
 - ROI-based detection
