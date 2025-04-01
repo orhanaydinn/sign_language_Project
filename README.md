@@ -95,12 +95,14 @@ This will display a color-coded matrix showing class-wise performance on the val
 ---
 
 ## ✅ Requirements
-- Python 3.8+
-- OpenCV
-- TensorFlow / Keras
-- NumPy
-- Matplotlib
-- scikit-learn
+opencv-python==4.5.5.62
+numpy==1.24.0
+matplotlib==3.6.3
+scikit-learn==1.1.3
+scikit-image==0.20.0     # (optional - for image processing)
+fpdf==1.7.2              # (optional - for PDF generation)
+tensorflow               # <-- not currently installed, recommend latest stable
+
 
 ---
 
