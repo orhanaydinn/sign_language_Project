@@ -7,12 +7,12 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 
-# 📁 Dataset settings
+# Dataset settings
 dataset_dir = "merged_rotated"
 img_size = 64
 num_classes = 10
 
-# 🔄 Load images and labels
+# Load images and labels
 X, Y = [], []
 for label in os.listdir(dataset_dir):
     path = os.path.join(dataset_dir, label)
@@ -36,16 +36,16 @@ print(f"✅ Total images loaded: {X.shape[0]}")
 # 🔀 Create validation set
 _, X_val, _, Y_val = train_test_split(X, Y, test_size=0.2, random_state=42)
 
-# 🧠 Load trained model
+# Load trained model
 model = load_model("best_model.keras")
 print("✅ Model loaded.")
 
-# 🔮 Predict
+# Predict
 y_pred = model.predict(X_val, verbose=1)
 y_pred_classes = np.argmax(y_pred, axis=1)
 y_true = np.argmax(Y_val, axis=1)
 
-# 📊 Confusion Matrix
+# Confusion Matrix
 labels = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 cm = confusion_matrix(y_true, y_pred_classes)
 
