@@ -5,6 +5,7 @@ This project aims to recognize hand gestures representing numbers (0 to 9) in re
 ---
 ## Project Review
 
+![Image](https://github.com/user-attachments/assets/15d60c0b-1dbc-4569-9e6c-127ed1736107)
 
 ## Download Dataset
 
