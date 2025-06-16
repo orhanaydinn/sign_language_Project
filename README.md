@@ -3,17 +3,19 @@
 This project aims to recognize hand gestures representing numbers (0 to 9) in real-time using a Convolutional Neural Network (CNN) trained on a custom dataset of grayscale hand images.
 
 ---
+## Project Review
 
-## 📦 Download Dataset
+
+## Download Dataset
 
 You can download the full training dataset (~175,000 images) from the link below:
 
-👉 [Download merged_rotated.zip from Google Drive](https://drive.google.com/drive/folders/1zn-vFtKoGX8axPeU9McAr1j4z0t8KWJ5?usp=drive_link)
+[Download merged_rotated.zip from Google Drive](https://drive.google.com/drive/folders/1zn-vFtKoGX8axPeU9McAr1j4z0t8KWJ5?usp=drive_link)
 
 > Unzip the folder and place it in the project root before training.
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 ├── merged_dataset/           # Original + manually added images
@@ -35,7 +37,7 @@ You can download the full training dataset (~175,000 images) from the link below
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - 2x Conv2D + MaxPooling
 - Flatten + Dense (256 units)
@@ -57,7 +59,7 @@ model = Sequential([
 
 ---
 
-## 🚀 Training
+## Training
 
 Run the training script:
 ```bash
@@ -71,7 +73,7 @@ This will:
 
 ---
 
-## 🎥 realtime_prediction.py 
+## realtime_prediction.py 
 
 Use your webcam to detect hand signs:
 ```bash
@@ -84,7 +86,7 @@ Features:
 
 ---
 
-## 📊 Model Evaluation
+## Model Evaluation
 
 Generate confusion matrix:
 ```bash
@@ -94,7 +96,7 @@ This will display a color-coded matrix showing class-wise performance on the val
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 - opencv-python==4.5.5.62
 - numpy==1.24.0
@@ -107,7 +109,7 @@ This will display a color-coded matrix showing class-wise performance on the val
 
 ---
 
-## 📌 Credits
+## Credits
 Developed by **Orhan AYDIN,** **Sultan KELES** and **Rakesh NEGI** as part of MSc AI & Computer Vision coursework.
 
 Inspired by real-world gesture recognition needs and optimized for robustness in live settings.
